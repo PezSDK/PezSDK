@@ -1,0 +1,23 @@
+{
+    "name": "pezsdk/pezsdk",
+    "description": "A easy-use and wonderful API-SDK development framework for PHP",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "LGPL",
+    "autoload": {
+        "psr-4": {
+            "Pezsdk\\Pezsdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xieyi1393",
+            "email": "2387911242@qq.com"
+        }
+    ]
+}
